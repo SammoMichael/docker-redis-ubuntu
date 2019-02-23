@@ -12,3 +12,6 @@ RUN tar xvzf redis-stable.tar.gz
 WORKDIR redis-stable
 # Build and Install Redis
 RUN make && make install
+
+# Start redis server on container run
+ENTRYPOINT redis-server
