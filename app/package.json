@@ -4,6 +4,7 @@
   "description": "Doesn't do much other than connecting to Redis",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
