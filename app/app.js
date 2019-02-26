@@ -1,4 +1,5 @@
 const Redis = require('ioredis');
+
 // `redis` is registered in /etc/hosts
 // automatically by docker-compose
 // it maps to the ip address of the
@@ -11,4 +12,6 @@ const redis = new Redis(6379, 'redis');
   const results = await redis.get('foo');
   
   console.log({ results });
+
+  redis.disconnect();
 })();
