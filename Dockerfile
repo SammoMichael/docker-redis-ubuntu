@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
 # wget, make and libjemalloc1 are needed to download and build Redis' source
 RUN apt-get update
