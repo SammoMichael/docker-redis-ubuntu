@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Doesn't do much other than connecting to Redis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appacademy/docker-redis-ubuntu.git"
+  },
+  "author": "App Academy Engineering",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/appacademy/docker-redis-ubuntu/issues"
+  },
+  "homepage": "https://github.com/appacademy/docker-redis-ubuntu#readme",
+  "dependencies": {
+    "ioredis": "^4.6.2"
+  }
+}

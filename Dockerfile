@@ -14,4 +14,4 @@ WORKDIR redis-stable
 RUN make && make install
 
 # Start redis server on container run
-ENTRYPOINT redis-server
+ENTRYPOINT redis-server --protected-mode no
